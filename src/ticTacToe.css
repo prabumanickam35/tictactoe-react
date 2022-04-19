@@ -1,0 +1,36 @@
+.btn {
+  background-color: aliceblue;
+  border: solid 1px black;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
+  /* display: block; */
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.tic-tac-toe {
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table {
+  border: 1px solid gray;
+}
+
+.x-filled {
+  background-color: greenyellow;
+}
+.o-filled {
+  background-color:hotpink;
+}
